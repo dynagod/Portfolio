@@ -13,51 +13,27 @@ const App = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with payment integration and admin dashboard.",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
-      link: "#"
+      title: "Chatty - Chat Application",
+      description: "Real-time chat app with authentication, group and 1-on-1 messaging, typing indicators, and responsive UI.",
+      tech: ["React", "TailwindCSS", "ContextAPI", "Express", "MongoDB", "SocketIO", "JWT"],
+      image: "Chatty-home.png",
+      link: "https://github.com/dynagod/chat-app"
     },
     {
       id: 2,
-      title: "AI Chat Application",
-      description: "Real-time chat app with AI-powered responses and modern UI/UX.",
-      tech: ["Next.js", "OpenAI", "WebSocket", "Tailwind"],
-      image: "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=400&h=250&fit=crop",
-      link: "#"
+      title: "BookHive",
+      description: "A full-stack online bookstore for browsing, purchasing, and managing books with user authentication and cart functionality.",
+      tech: ["React", "TailwindCSS", "MongoDB", "NodeJS", "Express"],
+      image: "Shop.png",
+      link: "https://github.com/dynagod/BookHive"
     },
     {
       id: 3,
-      title: "Task Management System",
-      description: "Collaborative project management tool with team features and analytics.",
-      tech: ["Vue.js", "Firebase", "TypeScript", "Chart.js"],
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop",
-      link: "#"
-    },
-    {
-      id: 4,
-      title: "Weather Dashboard",
-      description: "Beautiful weather app with forecasts, maps, and location-based alerts.",
-      tech: ["React", "Weather API", "Mapbox", "PWA"],
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
-      link: "#"
-    },
-    {
-      id: 5,
-      title: "Fitness Tracker",
-      description: "Mobile-first fitness app with workout plans and progress tracking.",
-      tech: ["React Native", "Redux", "SQLite", "Charts"],
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=250&fit=crop",
-      link: "#"
-    },
-    {
-      id: 6,
-      title: "Blog Platform",
-      description: "Modern blogging platform with markdown support and SEO optimization.",
-      tech: ["Gatsby", "GraphQL", "Netlify CMS", "MDX"],
-      image: "https://images.unsplash.com/photo-1486312338219-ce68e2c6b696?w=400&h=250&fit=crop",
-      link: "#"
+      title: "Blister - Discord bot",
+      description: "A basic Discord bot that responds to user commands and interactions within a server.",
+      tech: ["NodeJS", "discord.js"],
+      image: "discord.jpeg",
+      link: "https://github.com/dynagod/blister"
     }
   ];
 
@@ -290,7 +266,7 @@ const App = () => {
       <footer className={`py-8 px-4 border-t ${isDark ? 'border-gray-800' : 'border-gray-200'}`}>
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-gray-400">
-            © 2025 John Doe. Built with React & Tailwind CSS.
+            © Ayush Mamgain. Built with React & Tailwind CSS.
           </p>
         </div>
       </footer>
